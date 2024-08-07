@@ -251,7 +251,7 @@ OUTPUT G: <BR>
  Some differnces between strings and array in C++: <br>
 | Strings | Array |
 |---|---|
-|A one- dimensional array of characters terminated by a null character | A data structures containing a collection of elements each identified by array index|
+|`A one- dimensional array of characters terminated by a null character `|` A data structures containing a collection of elements each identified by array index`|
 |Can only store characters | Can store a set of integers, doubles, floats ets.|
 |Has a fixed size but can be changed using char pointer | Has a fixed size. |
 
