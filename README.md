@@ -246,6 +246,7 @@ int main() {
 OUTPUT G: <BR>
 ![EXP_ARRAY_G](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/array_g.png)
 <br>
-2) STRINGS : In C++ programming language, strings are sequences of characters used to represent text. There are two primary ways to handle strings in C++: (i) C-style strings (character arrays)  (ii)std::string from the Standard Library. <BR>
+
+ 2) STRINGS : In C++ programming language, strings are sequences of characters used to represent text. There are two primary ways to handle strings in C++: (i) C-style strings (character arrays)  (ii)std::string from the Standard Library. <BR>
 
 
