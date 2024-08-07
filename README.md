@@ -4,7 +4,7 @@ To study and implement C++ Arrays and Strings. <BR>
 THEORY :<BR>
 1) ARRAY : <BR>
  In C++ programming language arrays are used to store a collection of elements of the same type in contiguous memory locations. The first element is located at the lowest memory address, while the last element is located at the highest memory address. <br>
-1. Defining Arrays : Arrays in C++ can be defined in two main ways i.e. static and dynamic. The array_size must be an integer constant greater than zero and type can be any valid C++ data type.  <br>
+i) Defining Arrays : Arrays in C++ can be defined in two main ways i.e. static and dynamic. The array_size must be an integer constant greater than zero and type can be any valid C++ data type.  <br>
 Static Arrays: These arrays have a fixed size determined at compile time.   <br>
 ```
 int myArray[5]; // Declares an array of 5 integers
@@ -14,7 +14,7 @@ Dynamic Arrays: These arrays allow for size determination at runtime using point
 int* myArray = new int[5]; // Allocates an array of 5 integers on the heap
 ```
  <br>
-2. Initializing array: Arrays can be initialized at the time of declaration as follows: <br>
+ii) Initializing array: Arrays can be initialized at the time of declaration as follows: <br>
 Static Arrays: <br>
 
 ```
@@ -29,7 +29,7 @@ for (int i = 0; i < 5; ++i) {
 }
 ```
 
-3. 	Accessing and Modifying Elements : <br> 
+ iii) Accessing and Modifying Elements : <br> 
 An element is accessed by indexing the array name. Elements in an array are accessed and modified using the subscript operator [ ]. For example −
 ```
 int myArray[5] = {1, 2, 3, 4, 5};
