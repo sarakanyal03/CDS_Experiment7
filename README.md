@@ -35,7 +35,7 @@ int myArray[5] = {1, 2, 3, 4, 5};
 int x = myArray[2]; // Accesses the third element (index 2)
 myArray[2] = 10; // Modifies the third element
 ```
-CODE: <BR>
+CODE AND OUTPUT : <BR>
 1. CODE A:  <BR>
 ```
 //Printing array 
@@ -59,6 +59,8 @@ int main() {
     return 0;
 }
 ```
+OUTPUT A: <BR>
+![EXP_ARRAY_A](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/array_a.png)
 
 2. CODE B: <BR>
 ```
@@ -86,6 +88,9 @@ int main() {
 }
 
 ```
+OUTPUT B : <BR>
+![EXP_ARRAY_B](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/array_b.png)
+
 3. CODE C: <BR>
 ```
 #include<iostream>
@@ -120,6 +125,8 @@ int main() {
     }
 }
 ```
+OUTPUT C: <BR>
+![EXP_ARRAY_C](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/array_c.png)
 4. CODE D: <BR>
 ```
 #include<iostream>
@@ -147,6 +154,8 @@ int main() {
     }
 }
 ```
+OUTPUT D: <BR>
+![EXP_ARRAY_D](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/array_d.png)
 5. CODE E: <BR>
 ```
 #include <iostream>
@@ -180,6 +189,8 @@ int main() {
   return 0;
 }
 ```
+OUTPUT E: <BR>
+![EXP_ARRAY_E](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/array_e.png)
 6. CODE F: <BR>
 ```
 #include<iostream>
@@ -200,6 +211,8 @@ int main() {
     cout<<"Average = "<<avg;
 }
 ```
+OUTPUT F: <BR>
+![EXP_ARRAY_F](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/array_f.png)
 
 7. CODE G: <BR>
 ```
@@ -229,3 +242,7 @@ int main() {
 }
 
 ```
+OUTPUT G: <BR>
+![EXP_ARRAY_G](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/array_g.png)
+
+
