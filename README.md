@@ -247,6 +247,14 @@ OUTPUT G: <BR>
 ![EXP_ARRAY_G](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/array_g.png)
 <br>
 
- 2) STRINGS : In C++ programming language, strings are sequences of characters used to represent text. There are two primary ways to handle strings in C++: (i) C-style strings (character arrays)    (ii)std::string   from the Standard Library. <BR>
+ 2) STRINGS : In C++ programming language, strings are sequences of characters used to represent text. The string class stores the characters as a sequence of bytes with the functionality of allowing access to the single-byte character. There are two primary ways to handle strings in C++: (i) C-style strings (character arrays)    (ii)std::string   from the Standard Library. <BR>
+ Some differnces between strings and array in C++: <br>
+| Strings | Array |
+|---|---|
+|A one- dimensional array of characters terminated by a null character | A data structures containing a collection of elements each identified by array index|
+|Can only store characters | Can store a set of integers, doubles, floats ets.|
+|Has a fixed size but can be changed using char pointer | Has a fixed size. |
+
+ 
 
 
