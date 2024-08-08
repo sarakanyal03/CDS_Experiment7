@@ -331,6 +331,13 @@ OUTPUT D: <BR>
 ![EXP_STRING_D](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/string_d.png)
 <BR>
 CONCLUSION : <BR>
+In this experiment, we successfully implemented and manipulated strings and arrays in C++ programming language . The objectives of the experiment were to understand the underlying structure and behavior of these data types, as well as to gain hands-on experience with their manipulation through various operations such as initialization, accessing elements, modifying values, and iterating over their contents. <br>
+
+Key Findings: <br>
+
+Array Implementation: Arrays in C++ are static data structures with a fixed size determined at compile-time. We explored the limitations and benefits of using arrays, such as their constant-time access and the need for manual memory management when dealing with dynamic data sizes. <br>
+
+String Implementation: C++ strings, provided by the Standard Template Library (STL), offer a more flexible and safer alternative to character arrays. Through the implementation, we observed how string objects handle memory management automatically, allow dynamic resizing, and provide a variety of built-in functions for string manipulation. <br>
  
 
 
