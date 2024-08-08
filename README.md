@@ -266,8 +266,10 @@ int main() {
     return 0;
 }
 ```
+
 OUTPUT A: <BR>
 ![EXP_STRING_A](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/strings_a.png)
+
 CODE B: Concatenation of strings <BR>
 ```
 #include<iostream> 
@@ -282,7 +284,9 @@ return 0;
 }
 ```
 OUTPUT B: <BR>
+
 ![EXP_STRING_B](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/strings_b.png)
+
 CODE C : Printing string in reverse <BR>
 ```
 #include<iostream> 
@@ -299,9 +303,13 @@ cin>>x;
     return 0; 
 }
 ```
+
 OUTPUT C: <BR>
+
 ![EXP_STRING_C](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/string_c.png)
+
 CODE D : Checking palindrome <BR>
+
 ```
 #include<iostream> 
 #include<string> 
@@ -328,7 +336,9 @@ int main() {
 }
 ```
 OUTPUT D: <BR>
+
 ![EXP_STRING_D](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/string_d.png)
+
 <BR>
 CONCLUSION : <BR>
 In this experiment, we successfully implemented and manipulated strings and arrays in C++ programming language . The objectives of the experiment were to understand the underlying structure and behavior of these data types, as well as to gain hands-on experience with their manipulation through various operations such as initialization, accessing elements, modifying values, and iterating over their contents. <br>
