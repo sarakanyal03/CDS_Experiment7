@@ -249,12 +249,88 @@ OUTPUT G: <BR>
 
  2) STRINGS : In C++ programming language, strings are sequences of characters used to represent text. The string class stores the characters as a sequence of bytes with the functionality of allowing access to the single-byte character. There are two primary ways to handle strings in C++: (i) C-style strings (character arrays)    (ii)std::string   from the Standard Library. <BR>
  Some differnces between strings and array in C++: <br>
-| Strings | Array | <br>
-|---|---| <br>
-|A one- dimensional array of characters terminated by a null character  | A data structures containing a collection of elements each identified by array index |
-|Can only store characters | Can store a set of integers, doubles, floats ets. |
-|Has a fixed size but can be changed using char pointer | Has a fixed size. |
-
+Strings are one- dimensional array of characters terminated by a null character while array are data structures containing a collection of elements each identified by array index . <br>
+Strings can an only store characters and has a fixed size while arrays can store a set of integers, doubles, floats ets and has a fixed size but can be changed using char pointer . <br>
+<br>
+CODE AND OUTPUT : <BR>
+CODE A: String <BR>
+```
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    string x;
+    cout<< " Enter any word:";
+    cin>> x;
+    cout<< " Entered string is : \n"<<x<<endl;
+    return 0;
+}
+```
+OUTPUT A: <BR>
+![EXP_STRING_A](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/strings_a.png)
+CODE B: Concatenation of strings <BR>
+```
+#include<iostream> 
+#include<string> 
+using namespace std; 
+int main() { 
+string x, y; 
+cout<<"Enter strings: "; 
+cin>>x>>y; 
+cout<<"CONCATENATION: "<<x+y; 
+return 0; 
+}
+```
+OUTPUT B: <BR>
+![EXP_STRING_B](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/strings_b.png)
+CODE C : Printing string in reverse <BR>
+```
+#include<iostream> 
+#include<string> 
+using namespace std; 
+int main() { 
+string x; 
+cout<<"Enter a string: "; 
+cin>>x; 
+    int i; 
+    for(i=x.length()-1;i>=0;i--) { 
+        cout<<x[i]; 
+    } 
+    return 0; 
+}
+```
+OUTPUT C: <BR>
+![EXP_STRING_C](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/string_c.png)
+CODE D : Checking palindrome <BR>
+```
+#include<iostream> 
+#include<string> 
+using namespace std; 
+ 
+int main() { 
+    string x; 
+    cout<<"Enter a string: "; 
+    cin>>x; 
+    int n=x.length(), i, flag=0; 
+ 
+    for(i=0;i<x.length();i++){ 
+        if(x[i]==x[n-1]){ 
+            flag=1; 
+        } 
+        n--; 
+    } 
+    if(flag==1){ 
+        cout<<x<<" is palindrome"; 
+    } 
+    else{ 
+        cout<<x<<" is not palindrome"; 
+    } 
+}
+```
+OUTPUT D: <BR>
+![EXP_STRING_D](https://github.com/sarakanyal03/CDS_Experiment7/blob/main/string_d.png)
+<BR>
+CONCLUSION : <BR>
  
 
 
