@@ -251,6 +251,16 @@ OUTPUT G: <BR>
  Some differnces between strings and array in C++: <br>
 Strings are one- dimensional array of characters terminated by a null character while array are data structures containing a collection of elements each identified by array index . <br>
 Strings can an only store characters and has a fixed size while arrays can store a set of integers, doubles, floats ets and has a fixed size but can be changed using char pointer . <br>
+## Comparison Table
+
+| Feature           | Array                                           | String                                       |
+|-------------------|-------------------------------------------------|----------------------------------------------|
+| Definition    | A collection of elements of the same type stored in contiguous memory locations. | A sequence of characters, often implemented as an array of characters with additional functionalities. |
+| Size          | Fixed size, determined at creation.            | Dynamic size, can change in many languages. |
+| Mutability    | Elements can be modified.                      | Mutable or immutable depending on the language. |
+| Access        | Accessed via indices.                          | Characters accessed via indices; includes built-in methods for manipulation. |
+| Operations    | Manual operations for sorting, searching, etc.  | Built-in methods for concatenation, substring extraction, searching, etc. |
+| Memory Management | Manual memory management in languages like C/C++. | Automatic memory management in higher-level languages. |
 <br>
 CODE AND OUTPUT : <BR>
 CODE A: String <BR>
