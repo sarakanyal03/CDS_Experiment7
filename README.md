@@ -255,12 +255,12 @@ Strings can an only store characters and has a fixed size while arrays can store
 
 | Feature           | Array                                           | String                                       |
 |-------------------|-------------------------------------------------|----------------------------------------------|
-| Definition    | A collection of elements of the same type stored in contiguous memory locations. | A sequence of characters, often implemented as an array of characters with additional functionalities. |
-| Size          | Fixed size, determined at creation.            | Dynamic size, can change in many languages. |
+| Definition    |A group of elements of the same type stored in adjacent memory locations. | A sequence of characters, typically represented as an array of characters with added functionalities. |
+| Memory Management | Explicit memory management in languages like C/C++ |Automated memory management in high-level languages. |
+| Size          |Arrays have a fixed size determined at the time of their creation. The size is defined by the number of elements the array can hold and is usually specified in the declaration. Once set, the size of an array cannot be changed during the program's execution.           | Strings, especially in higher-level languages, often have variable sizes. They can grow or shrink as characters are added or removed. The length of a string is determined by the number of characters it contains, not including any null-terminator.|
 | Mutability    | Elements can be modified.                      | Mutable or immutable depending on the language. |
-| Access        | Accessed via indices.                          | Characters accessed via indices; includes built-in methods for manipulation. |
 | Operations    | Manual operations for sorting, searching, etc.  | Built-in methods for concatenation, substring extraction, searching, etc. |
-| Memory Management | Manual memory management in languages like C/C++. | Automatic memory management in higher-level languages. |
+
 <br>
 CODE AND OUTPUT : <BR>
 CODE A: String <BR>
